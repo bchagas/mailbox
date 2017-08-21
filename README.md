@@ -3,7 +3,7 @@
 Developed with Node 7.7.4.
 
 ## First steps
-- Download the package at [https://github.com/bchagas/mailbox/archive/master.zip](Mailbox)
+- Download the package: [Mailbox](https://github.com/bchagas/mailbox/archive/master.zip)
 - unzip file
 - cd [unziped-folder]
 - structure
