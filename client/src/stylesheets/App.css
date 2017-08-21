@@ -290,20 +290,22 @@ textarea {
 
 body {
   font-family: "Open Sans", sans-serif;
-  font-size: em(16);
+  font-size: 16px;
   -webkit-font-smoothing: antialiased; }
 
 button[name='close'] {
   border-radius: 100px;
   border: none;
   cursor: pointer;
+  font-size: 10px;
+  padding: 5px 7px;
   transition: background-color, .5s ease; }
   button[name='close']:hover {
     background-color: #F56464; }
-  button[name='close'] svg {
-    color: white;
+  button[name='close'] img {
     height: 10px;
-    width: 10px; }
+    width: 10px;
+    margin-top: 2px; }
 
 .logo {
   text-align: center;
@@ -335,7 +337,7 @@ button[name='close'] {
     position: relative;
     transition: background-color .5s ease; }
     #navigation li.read {
-      background-color: #F7F7F7; }
+      background-color: rgba(0, 0, 0, 0.1); }
       #navigation li.read:hover {
         background-color: #C4C4C4; }
     #navigation li:last-child {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Close from 'material-ui-icons/Close'
+import close from '../images/close.svg'
 
 class Remove extends Component {
   render() {
@@ -9,7 +9,7 @@ class Remove extends Component {
       name='close'
       onClick={removeMessage}
       title='Delete'
-    ><Close/></button>
+    ><img src={close} alt="Remove Message" width="10" height="10"/></button>
   }
 }
 
