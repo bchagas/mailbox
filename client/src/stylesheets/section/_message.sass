@@ -1,0 +1,73 @@
+.message
+  float: left
+  position: relative
+  width: 69%
+
+  p
+    line-height: 20px
+    font-size: 14px
+    padding:
+      left: 20px
+      right: 20px
+
+  header > div,
+  .actions
+    float: left
+    width: 50%
+
+  .actions
+    list-style: none
+    margin: 0
+    padding: 16px 0
+    text-align: right
+
+    li
+      display: inline
+
+  header
+    padding:
+      left: 20px
+      top: 12px
+      bottom: 12px
+    text-align: left
+    overflow: hidden
+
+    h1,
+    h2,
+    h3
+      margin: 0
+      text-align: left
+
+    h1
+      font-size: 18px
+      margin-bottom: 3px
+      text-transform: uppercase
+
+    h2
+      color: rgba(0, 0, 0, 0.4)
+      font-size: 14px
+      margin-bottom: 3px
+
+    h3
+      color: rgba(0, 0, 0, 0.4)
+      font-weight: normal
+      font-size: 14px
+
+    button
+      &[name='close']
+        margin:
+          left: 10px
+          right: 10px
+
+      &[name='mark as unread'],
+      &[name='mark as read']
+        border: 1px solid palette(primary, aquamarine)
+        border-radius: 100px
+        background: none
+        color: palette(primary, aquamarine)
+        cursor: pointer
+        transition: background-color .5s ease
+
+        &:hover
+          background-color: palette(primary, aquamarine)
+          color: white

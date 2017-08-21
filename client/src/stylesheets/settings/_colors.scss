@@ -1,0 +1,13 @@
+$palettes: (
+  primary: (
+    aquamarine: #00D4A2,
+    base: #000000,
+    coral: #F56464,
+    pinkish-grey-two: #C4C4C4,
+    white-two: #F7F7F7,
+  )
+);
+
+@function palette($palette, $tone: 'base') {
+  @return map-get(map-get($palettes, $palette), $tone);
+};
