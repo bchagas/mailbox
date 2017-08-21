@@ -18,5 +18,5 @@ Developed with Node 7.7.4.
   - `npm install -g serve`
   - `serve -s build` the front-end will run on port `5000`
 
-## About the projects
+## Changes
 - I added a button to Mark Unread and Mark Read Messages.
